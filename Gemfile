@@ -1,6 +1,6 @@
 source 'https://ruby.taobao.org'
-ruby '2.0.0'
-gem 'therubyracer'
+#ruby '2.0.0'
+#gem 'therubyracer'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
