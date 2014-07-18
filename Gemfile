@@ -1,10 +1,11 @@
 source 'https://ruby.taobao.org'
-#ruby '2.0.0'
-#gem 'therubyracer'
+ruby '2.0.0'
+gem 'therubyracer'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
 gem 'bootstrap-sass','2.3.2.0'
+gem 'bcrypt','3.1.7'
 group :development, :test do
 gem 'sqlite3','1.3.8'
 gem 'rspec-rails', '2.13.1'
@@ -14,7 +15,7 @@ group :test do
   gem 'capybara','2.1.0'
 end
 
-gem 'sass', '~> 3.2.0'
+gem 'sass', '3.2.19'
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.2'
 

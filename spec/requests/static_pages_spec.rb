@@ -3,21 +3,7 @@ require 'spec_helper'
 describe "Static Pages" do
   subject {page}
 
-<<<<<<< HEAD
-  describe "Contact page" do
 
-      it "should have the content 'Contact'" do
-              visit '/static_pages/contact'
-                    expect(page).to have_content('Contact')
-                        end
-
-          it "should have the title 'Contact'" do
-                  visit '/static_pages/contact'
-                        expect(page).to have_title("Ruby on Rails Tutorial Sample App | Contact")
-                            end
-            end
-
-=======
     describe "Home page" do
       before {visit root_path}
 
@@ -48,5 +34,4 @@ describe "Static Pages" do
             it { should have_content('Contact')  }
                 it { should have_title(full_title('Contact')) }
                   end
->>>>>>> filling-inlayout
 end
